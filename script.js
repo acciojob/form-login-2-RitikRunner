@@ -5,6 +5,8 @@ let ln = document.getElementById("ln")
 let pn = document.getElementById("nn")
 let ei = document.getElementById("ei")
 submit.addEventListener("click",()=>{
-	alert("First Name:" fn.value, "Last Name:" ln.value,
-		 "Phone Number:" pn.value, "Email ID:" ei.value)
+	alert("First Name: " + fn.value + "\n" +
+    "Last Name: " + ln.value + "\n" +
+    "Phone Number: " + pn.value + "\n" +
+    "Email ID: " + ei.value)
 })
