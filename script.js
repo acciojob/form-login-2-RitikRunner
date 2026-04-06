@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let submit = document.getElementById("submit")
+let submit = document.getElementById("submitBtn")
 let fn = document.getElementById("First Name")
 let ln = document.getElementById("Last Name")
 let pn = document.getElementById("Phone Number")
