@@ -5,7 +5,7 @@ let ln = document.getElementById("Last Name")
 let pn = document.getElementById("Phone Number")
 let EmailID = document.getElementById("Email ID")
 submit.addEventListener("click",()=>{
-	alert("First Name: " + fn.value + "\n" +
+alert("First Name: " + fn.value + "\n" +
     "Last Name: " + ln.value + "\n" +
     "Phone Number: " + pn.value + "\n" +
     "Email ID: " + EmailID.value)
